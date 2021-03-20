@@ -8,26 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'DAO',
-    imageUrl: 'img/anonymous-mask.svg',
+    title: 'DAO Believers',
+    imageUrl: 'img/icons8-sickle-96.png',
     description: (
       <>
+      DragonGuild is a DAO , without centralized leadership and member-owned Community. 
       </>
     ),
   },
   {
-    title: 'BUIDL',
-    imageUrl: 'img/iron-man.svg',
+    title: 'Web3 BUIDL',
+    imageUrl: 'img/icons8-hammer-96.png',
     description: (
       <>
+      DeFi , NFTs , DAOs and anything cool . Let’s BUIDL it!
       </>
     ),
   },
   {
-    title: 'Web3',
-    imageUrl: 'img/house-stark.svg',
+    title: 'Fight for Freedom',
+    imageUrl: 'img/icons8-assault-rifle-96.png',
     description: (
       <>
+      Hope someday you’ll join us and the world will live as one.
       </>
     ),
   },
@@ -53,7 +56,7 @@ export default function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
