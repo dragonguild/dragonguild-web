@@ -4,7 +4,8 @@ module.exports = {
       type: 'category',
       label: 'Dragonguild',
       items: [
-        'welcome',
+        'about-us',
+        'portfolio'
       ],
     },
   ],
